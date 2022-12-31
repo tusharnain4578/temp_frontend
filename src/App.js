@@ -27,6 +27,7 @@ function App() {
           console.log(data);
           setUser(data)
         } else {
+          console.log(data);
           console.log("something wrong with received data");
         }
       }
