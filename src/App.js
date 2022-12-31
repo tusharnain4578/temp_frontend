@@ -14,7 +14,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     $.ajax({
-      url: "https://zany-pocket-jay.cyclic.app/",
+      url: "/ck",
       xhrFields: {
         withCredentials: true
       },
